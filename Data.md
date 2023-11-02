@@ -30,3 +30,15 @@ Once the text is indexed and padded (if necessary), it can be represented as a t
 In addition to the one-dimensional representation, more sophisticated techniques can be used to capture the meaning and context of the text. For example, word embeddings can be applied to represent each word as a dense vector in a continuous space. These vectors can be learned from large text corpora using techniques like word2vec or GloVe. Word embeddings capture semantic relationships between words and can enhance the performance of NLP models.
 
 In summary, transferring text to tensors involves preprocessing the text data, building a vocabulary, indexing the text, and representing it as a tensor. These steps enable neural networks to process and learn from textual data effectively. Understanding this process is crucial when working with NLP tasks and developing models that can handle text-based information.
+
+## Working with audio
+
+Audio data is divided into short, overlapping segments called frames. Each frame typically consists of a fixed number of audio samples. This segmentation is necessary because audio signals are continuous and time-varying, and frames provide a more manageable and structured representation for analysis.
+
+Once the audio data is segmented into frames, the next step is to apply a windowing function to each frame. Windowing helps to reduce artifacts introduced by the sudden start and end points of individual frames. Popular windowing functions include the Hamming window or the Hann window, which smoothly taper the edges of each frame.
+
+After windowing, the audio data is usually transformed into a frequency domain representation using a technique called the Fast Fourier Transform (FFT). The FFT decomposes the audio frames into their constituent frequencies and provides information about the amplitude and phase of each frequency component. The result is a spectrogram, which is a 2D representation of the audio data with time on one axis and frequency on the other.
+
+To convert the spectrogram into a tensor, the values are typically normalized and scaled to a fixed range. This ensures that the neural network can effectively learn from the audio data and makes the training process more stable. The normalized spectrogram can then be represented as a two-dimensional tensor, where each element corresponds to the magnitude or intensity of a specific frequency component at a particular time.
+
+In addition to the magnitude spectrogram, other audio features, such as mel-frequency cepstral coefficients (MFCCs), can be computed and included in the tensor representation. MFCCs capture important perceptual characteristics of audio signals and are commonly used in speech and audio processing tasks.
