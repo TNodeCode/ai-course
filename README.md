@@ -1,6 +1,6 @@
 # AI Course - Introduction to Neural Networks
 
-In this course we will teach you the basis of the modern approach to the topic of artificial intelligence - the neural networks. These models solve problems that have long been considered unsolvable by a computer, like image classification, precise language translation or even generating new content like text and images. But how actually can you do those things just by the power of math and a computer? This course will provide you the basic skills to understand what a neural network is, what you can do with it and how you can program your own neural network using the Python framework PyTorch, which is used by a lot of companies and universities today.
+In this course we will teach you the basics of the modern approach to the topic of artificial intelligence - the neural networks. These models solve problems that have long been considered unsolvable by a computer, like image classification, precise language translation or even generating new content like text and images. But how actually can you do those things just by the power of math and a computer? This course will provide you the basic skills to understand what a neural network is, what you can do with it and how you can program your own neural network using the Python framework PyTorch, which is used by a lot of companies and universities today.
 
 ## Agenda
 
