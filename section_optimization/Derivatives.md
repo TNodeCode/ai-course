@@ -284,6 +284,6 @@ Overall, the gradient descent algorithm provides an iterative approach to optimi
 
 <img src="images/gradient_descent.jpg" />
 
-There is a very good video on YouTube by _Emergent Garden_ which shows multiple exampled how a neural network learns by feeding in with data and what difficulties can occur during the learning process:
+There is a very good video on YouTube by _Emergent Garden_ which shows multiple exampled how a neural network learns by feeding in with data and what difficulties can occur during the learning process. Also neural networks are compared to other approximation techniques like Taylor Series.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TkwXa7Cvfr8?si=GHPTv4h_hlJFepTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
