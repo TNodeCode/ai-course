@@ -264,13 +264,13 @@ The gradient descent algorithm is an iterative optimization algorithm used to mi
 
 Here's a step-by-step explanation of the gradient descent algorithm:
 
-Initialization: Choose an initial point in the parameter space. This could be done randomly or based on prior knowledge.
+1. **_Initialization_**: Choose an initial point in the parameter space. This could be done randomly or based on prior knowledge.
 
-Compute the Gradient: Calculate the gradient (or partial derivatives) of the cost or objective function with respect to each parameter. The gradient represents the direction of the steepest ascent in the function space.
+2. **_Compute the Gradient_**: Calculate the gradient (or partial derivatives) of the cost or objective function with respect to each parameter. The gradient represents the direction of the steepest ascent in the function space.
 
-Update the Parameters: Update the values of the parameters by taking a step proportional to the negative gradient. The updating equation is typically of the form:
-θ_new = θ_old - learning_rate \* gradient,
-where θ_new and θ_old represent the new and old parameter values, respectively, and the learning_rate is a hyperparameter that determines the step size.
+3. **_Update the Parameters_**: Update the values of the parameters by taking a step proportional to the negative gradient. The updating equation is typically of the form:
+   `θ_new = θ_old - learning_rate * gradient`,
+   where _θ_new_ and _θ_old_ represent the new and old parameter values, respectively, and the learning_rate (often denoted as alpha) is a hyperparameter that determines the step size.
 
 Repeat Steps 2 and 3: Repeat steps 2 and 3 until convergence or a stopping criterion is met. The stopping criterion can be based on the number of iterations, reaching a certain threshold for the cost function, or other criteria specific to the problem.
 
