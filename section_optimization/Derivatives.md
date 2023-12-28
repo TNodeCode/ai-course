@@ -8,6 +8,39 @@ The derivative can be computed using various methods, depending on the complexit
 
 Derivatives have numerous applications in mathematics, physics, engineering, economics, and other fields. They are used to solve optimization problems, analyze rates of change, model physical phenomena, and much more.
 
+## The constants rule
+
+The derivative of a constant is always zero. This rule holds true in calculus, as the derivative measures the rate of change of a function. Since a constant value does not change as the input variable varies, its derivative is always zero.
+
+Mathematically, if we have a constant value C, then the derivative of C with respect to any variable x is given by:
+
+```
+d/dx (C) = 0
+```
+
+This implies that regardless of the form of the constant or the variable with respect to which we are taking the derivative, the result will always be zero.
+
+For example, let's consider the constant function _f(x) = 5_. Taking the derivative of this function with respect to x yields:
+
+```
+d/dx (5) = 0
+```
+
+Similarly, if we have a constant value in an expression involving other variables, the derivative of that expression with respect to any variable will still be zero for the constant term.
+
+For example, if we have the function _g(x) = 3x^2 + 7_, the derivative with respect to x is:
+
+```
+d/dx (3x^2 + 7)
+= d/dx (3x^2) + d/dx (7)
+= 6x + 0
+= 6x
+```
+
+As you can see, the derivative of the constant term _7_ is zero, and it does not contribute to the rate of change of the function.
+
+In summary, when computing derivatives, constants are treated as terms that do not change and have no impact on the rate of change of a function. Therefore, their derivative is always zero.
+
 ## The sum rule
 
 The sum rule, also known as the rule of linearity, is a basic rule in calculus that allows you to find the derivative of a sum of functions. Mathematically, the sum rule states that if you have two functions, f(x) and g(x), and you want to find the derivative of their sum, denoted as (f(x) + g(x)), then the derivative of the sum is equal to the sum of the derivatives of the individual functions. Symbolically, it can be expressed as:
@@ -112,7 +145,7 @@ The product rule is particularly useful when dealing with functions that involve
 The quotient rule is a fundamental rule in calculus that allows you to find the derivative of a function that is expressed as the quotient of two functions. Mathematically, the quotient rule states that if you have two functions, f(x) and g(x), and you want to find the derivative of their quotient, denoted as (f(x) / g(x)), then the derivative of the quotient is calculated as follows:
 
 ```
-(f(x) / g(x))' = (f'(x) _ g(x) - f(x) _ g'(x)) / [g(x)]^2
+(f(x) / g(x))' = (f'(x) * g(x) - f(x) * g'(x)) / [g(x)]^2
 ```
 
 In other words, to apply the quotient rule, you differentiate the numerator, multiply it by the denominator, then subtract the product of the numerator and the derivative of the denominator. Finally, divide the whole expression by the square of the denominator.
@@ -174,7 +207,7 @@ Identify the outer function (f(u) = u^3) and the inner function (g(x) = 2x + 1).
 Differentiate the outer function with respect to its variable (u), which gives you (df/du) = 3u^2.
 Differentiate the inner function with respect to its variable (x), which gives you (dg/dx) = 2.
 Multiply (df/du) by (dg/dx) to obtain the derivative of the composite function, dy/dx:
-dy/dx = (df/du) _ (dg/dx) = 3(2x + 1)^2 _ 2 = 6(2x + 1)^2.
+dy/dx = (df/du) \* (dg/dx) = 3(2x + 1)^2 \* 2 = 6(2x + 1)^2.
 So, the derivative of _y = (2x + 1)^3_ with respect to _x_ is dy/dx = 6(2x + 1)^2.
 
 The chain rule is a powerful tool in calculus and is used extensively in various applications, such as in physics, engineering, and optimization problems, where functions involve nested operations or compositions.
