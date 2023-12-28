@@ -283,3 +283,7 @@ There are variations of gradient descent, such as batch gradient descent, stocha
 Overall, the gradient descent algorithm provides an iterative approach to optimize a function by iteratively updating parameters in the direction of steepest descent. It is a fundamental optimization technique used in various machine learning algorithms, such as linear regression, logistic regression, and neural networks.
 
 <img src="images/gradient_descent.jpg" />
+
+There is a very good video on YouTube by _Emergent Garden_ which shows multiple exampled how a neural network learns by feeding in with data and what difficulties can occur during the learning process:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TkwXa7Cvfr8?si=GHPTv4h_hlJFepTv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
