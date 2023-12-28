@@ -248,3 +248,5 @@ The learning rate is a crucial hyperparameter in gradient descent. It determines
 There are variations of gradient descent, such as batch gradient descent, stochastic gradient descent, and mini-batch gradient descent, which differ in how they update the parameters using the gradient. These variations are often used to balance computational efficiency and convergence accuracy.
 
 Overall, the gradient descent algorithm provides an iterative approach to optimize a function by iteratively updating parameters in the direction of steepest descent. It is a fundamental optimization technique used in various machine learning algorithms, such as linear regression, logistic regression, and neural networks.
+
+<img src="images/gradient_descent.jpg" />
