@@ -8,9 +8,11 @@ Matrices can be used to perform various geometrical transformations on vectors o
 
 Translation involves shifting an object or a point in space by a certain distance in the x, y, and/or z directions. It can be represented using a translation matrix, where the matrix elements correspond to the amount of translation in each direction. For example, a 2D translation matrix for shifting by (tx, ty) would be:
 
+```
 | 1 0 tx |
 | 0 1 ty |
 | 0 0 1 |
+```
 
 ### Scaling
 
@@ -18,8 +20,10 @@ Translation involves shifting an object or a point in space by a certain distanc
 
 Scaling modifies the size of an object or a point. It can be uniformly applied to all dimensions or independently along each axis. Scaling is represented using a scaling matrix, where the diagonal elements represent the scaling factors. For example, a 2D scaling matrix for scaling by (sx, sy) would be:
 
+```
 | sx 0 |
 | 0 sy |
+```
 
 ### Rotation
 
@@ -27,8 +31,10 @@ Scaling modifies the size of an object or a point. It can be uniformly applied t
 
 Rotation transforms an object or a point around a fixed point or the origin. Rotations can be performed in 2D or 3D space and are typically specified by an angle of rotation or rotation matrix. For example, a 2D rotation matrix for rotating by an angle θ would be:
 
+```
 | cos(θ) -sin(θ) |
 | sin(θ) cos(θ) |
+```
 
 ### Shearing
 
