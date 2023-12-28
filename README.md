@@ -57,13 +57,37 @@ But there are also types of neural networks we haven't discussed in this course 
 
 ### Resources
 
+##### Literature
+
+**The Little Book of Deep Learning**
+
+This is a free book for beginners tring to understand the basic concepts of deep learning. The author roughly explains the basic concepts of deep learning without digging too much into mathematical details.
+
+https://fleuret.org/public/lbdl.pdf
+
+**Pattern Recognition and Machine Learning**
+
+The machine learning book for hardcore math enthusiasts. For those of you who really want to understand the math behind machine learning and need a comprehensive book that covers many models and learning strategies this is the book for you.
+
+https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
+
 ##### YouTube
 
-A complete lecture about Computer Vision by the Michigan University can be found on YouTube.
-https://youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&si=Lf2_d2DJ51xJP7R7
+**_StatQuest with Josh Starmer_**
+
+This is one of the best channels on YouTube when you need explanations for the math of neural networks or other machine learning models.
+
+https://www.youtube.com/@statquest
+
+**_Serrano Academy_**
 
 Another good YouTube channel about neural networks is the channel of Luis Serrano.
 https://www.youtube.com/@SerranoAcademy
+
+**_Computer Vision lecture by Michigan University_**
+
+A complete lecture about Computer Vision by the Michigan University can be found on YouTube.
+https://youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r&si=Lf2_d2DJ51xJP7R7
 
 ##### Udemy
 
