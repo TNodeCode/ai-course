@@ -155,7 +155,7 @@ The idea of MobileNet was to develop a small model that reaches high accuracies 
 
 Paper: <a href="https://arxiv.org/pdf/1905.02244.pdf" target="_blank" />Searching for mobileNet V3</a>
 
-PyTorch: <a href="https://pytorch.org/vision/main/models/mobilenetv3.html" target="_blank">VGG Models</a>
+PyTorch: <a href="https://pytorch.org/vision/main/models/mobilenetv3.html" target="_blank">MobileNet V3 Models</a>
 
 
 ***ResNet***
@@ -163,6 +163,8 @@ PyTorch: <a href="https://pytorch.org/vision/main/models/mobilenetv3.html" targe
 ResNet is one of the most popular models in the computer vision domain. It was introduced in 2015 by microsoft and drives multiple famous model architectures for classification, object decetion and image segmentation. ResNet also comes in different sizes starting with ResNet18, continuing with ResNet34, Resnet50, ResNet101, and ending with ResNet 152. Especially ResNet50 is also used for other tasks than image classification such as object detection in the <a href="https://pytorch.org/vision/main/models/faster_rcnn.html" target="_blank">Faster-RCNN</a> model, for image segmenation in the <a href="https://pytorch.org/vision/main/models/mask_rcnn.html" target="_blank">Mask-R-CNN</a> model or for keypoint detection in the <a href="https://pytorch.org/vision/main/models/keypoint_rcnn.html" target="_blank">Keypoint-R-CNN</a> model
 
 Paper: <a href="https://arxiv.org/pdf/1512.03385.pdf" target="_blank" />Deep Residual Learning for Image Recognition</a>
+
+PyTorch: <a href="https://pytorch.org/vision/main/models/resnet.html" target="_blank">ResNet</a>
 
 
 ## More PyTorch Vision Models
